@@ -47,7 +47,7 @@
 	</project>
 	<project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-6.0" remote="github" />
 	<project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-6.0" remote="github"/>
-	<project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-6.0" remote="github"/>
+<!--	<project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-6.0" remote="github"/> -->
 	<project path="external/busybox" name="timduru/platform-external-busybox"  revision="katkiss-6.0" remote="github"/>
 	<project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-6.0" remote="github" />
 	<project path="external/exfat" name="timduru/platform-external-exfat"  revision="katkiss-6.0" remote="github" />

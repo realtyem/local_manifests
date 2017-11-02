@@ -39,52 +39,52 @@
 	<remove-project name="platform/system/media" />
 	<remove-project name="platform/system/vold" />
 
-	<project path="art" name="timduru/platform_art"  revision="katkiss-6.0" remote="github"/>
-	<project path="bionic" name="timduru/platform-bionic"  revision="aosp-6.0_katkiss-6.0" remote="github" />
-	<project path="bootable/recovery" name="timduru/platform-bootable-recovery" revision="katkiss-6.0" remote="github" />
-	<project path="build" name="timduru/platform-build" revision="aosp-6.0_katkiss-6.0" remote="github" >
+	<project path="art" name="realtyem/platform_art"  revision="katkiss-6.0" remote="github"/>
+	<project path="bionic" name="realtyem/platform-bionic"  revision="aosp-6.0_katkiss-6.0" remote="github" />
+	<project path="bootable/recovery" name="realtyem/platform-bootable-recovery" revision="katkiss-6.0" remote="github" />
+	<project path="build" name="realtyem/platform-build" revision="aosp-6.0_katkiss-6.0" remote="github" >
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
-	<project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-6.0" remote="github" />
-	<project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-6.0" remote="github"/>
-<!--	<project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-6.0" remote="github"/> -->
-	<project path="external/busybox" name="timduru/platform-external-busybox"  revision="katkiss-6.0" remote="github"/>
-	<project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-6.0" remote="github" />
-	<project path="external/exfat" name="timduru/platform-external-exfat"  revision="katkiss-6.0" remote="github" />
-	<project path="external/ffmpeg" name="timduru/android_external_ffmpeg"  revision="katkiss-6.0_c" remote="github"/>
-	<project path="external/fuse" name="timduru/platform-external-fuse"  revision="katkiss-5.0" remote="github" />
-	<project path="external/ncurses" name="timduru/platform-external-ncurses"  revision="katkiss-4.3" remote="github"/>
-	<project path="external/ntfs-3g" name="timduru/platform-external-ntfs-3g"  revision="katkiss-6.0" remote="github"/>
-	<project path="external/thtt" name="timduru/platform-external-thtt"  revision="katkiss-5.0" remote="github"/>
-	<project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-6.0" remote="github" />
-	<project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-6.0" />
-	<project path="external/stagefright-plugins" name="timduru/android_external_stagefright-plugins"  revision="katkiss-6.0_c" remote="github"/>
+	<project path="dalvik" name="realtyem/platform-dalvik" revision="katkiss-6.0" remote="github" />
+	<project path="device/asus/tf101" name="realtyem/device_asus_tf101" revision="katkiss-6.0" remote="github"/>
+<!--	<project path="device/asus/tf300t" name="realtyem/android_device_asus_tf300t" revision="katkiss-6.0" remote="github"/> -->
+	<project path="external/busybox" name="realtyem/platform-external-busybox"  revision="katkiss-6.0" remote="github"/>
+	<project path="external/e2fsprogs" name="realtyem/platform-external-e2fsprogs"  revision="katkiss-6.0" remote="github" />
+	<project path="external/exfat" name="realtyem/platform-external-exfat"  revision="katkiss-6.0" remote="github" />
+	<project path="external/ffmpeg" name="realtyem/android_external_ffmpeg"  revision="katkiss-6.0_c" remote="github"/>
+	<project path="external/fuse" name="realtyem/platform-external-fuse"  revision="katkiss-5.0" remote="github" />
+	<project path="external/ncurses" name="realtyem/platform-external-ncurses"  revision="katkiss-4.3" remote="github"/>
+	<project path="external/ntfs-3g" name="realtyem/platform-external-ntfs-3g"  revision="katkiss-6.0" remote="github"/>
+	<project path="external/thtt" name="realtyem/platform-external-thtt"  revision="katkiss-5.0" remote="github"/>
+	<project path="external/skia" name="realtyem/platform-external-skia"  revision="katkiss-6.0" remote="github" />
+	<project path="external/sqlite" name="realtyem/external_sqlite" remote="github" revision="katkiss-6.0" />
+	<project path="external/stagefright-plugins" name="realtyem/android_external_stagefright-plugins"  revision="katkiss-6.0_c" remote="github"/>
 	<project path="external/stlport" name="platform/external/stlport" revision="refs/tags/android-5.1.1_r30" remote="aosp" />
-	<project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-6.0"  remote="github"/>
-	<project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-6.0" remote="github"/>
-	<project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-6.0" remote="github"/>
-	<project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-6.0" remote="github"/>
-	<project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-6.0" remote="github" />
-	<project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="aosp-6.0_buildfix" remote="github"/>
-	<project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-6.0" remote="github" />
-	<project path="kernel/asus/tf101" name="timduru/tf101-katkernel" revision="dev" remote="github"/>
-	<project path="libcore" name="timduru/platform-libcore" revision="aosp-6.0_buildfix" remote="github"/>
-	<project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-6.0" remote="github"/>
-	<project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-6.0" remote="github" />
-	<project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-6.0" remote="github" />
-	<project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-6.0" remote="github" />
-	<project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-6.0" remote="github" />
-	<project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-6.0" remote="github" />
-	<project path="packages/providers/MediaProvider" name="timduru/platform-packages-providers-MediaProvider"  revision="katkiss-6.0" remote="github" />
-	<project path="prebuilts/gcc/linux-x86/arm/linaro-4.7" name="timduru/platform-prebuilts-gcc-linux-x86-arm-linaro-4.7" groups="linux,arm"   revision="katkiss-4.3" remote="github" />
-	<project path="system/bt" name="timduru/platform_system_bt"  revision="katkiss-6.0" remote="github"/>
-	<project path="system/core" name="timduru/android-system-core"  revision="o-katkiss-6.0-tmpfix" remote="github"/>
-	<project path="system/extras" name="timduru/platform-system-extras"  revision="cm-10.2_katkiss-6.0" remote="github"/>
-	<project path="system/media" name="timduru/platform-system-media"  revision="katkiss-6.0" remote="github"/>
-	<project path="system/vold" name="timduru/platform-system-vold"  revision="katkiss-6.0" remote="github"/>
-	<project path="vendor/asus" name="timduru/platform-vendor-asus"  revision="eos-4.2.2" remote="github"/>
-	<project path="vendor/kat" name="timduru/platform-vendor-kat"  revision="katkiss-6.0" remote="github"/>
-	<project path="vendor/sm" name="timduru/platform-vendor-sm"  revision="katkiss-5.1" remote="github"/>
-	<project path="vendor/widevine" name="timduru/platform-vendor-widevine"  revision="katkiss-4.4" remote="github"/>
+	<project path="frameworks/av" name="realtyem/platform-frameworks-av" revision="katkiss-6.0"  remote="github"/>
+	<project path="frameworks/base" name="realtyem/platform-frameworks-base" revision="katkiss-6.0" remote="github"/>
+	<project path="frameworks/ex" name="realtyem/platform-frameworks-ex" revision="katkiss-6.0" remote="github"/>
+	<project path="frameworks/native" name="realtyem/platform-frameworks-native" revision="katkiss-6.0" remote="github"/>
+	<project path="frameworks/opt/net/wifi" name="realtyem/platform-frameworks-opt-net-wifi" revision="katkiss-6.0" remote="github" />
+	<project path="frameworks/wilhelm" name="realtyem/platform-frameworks-wilhelm" revision="aosp-6.0_buildfix" remote="github"/>
+	<project path="hardware/broadcom/wlan" name="realtyem/platform-hardware-broadcom-wlan"  revision="katkiss-6.0" remote="github" />
+	<project path="kernel/asus/tf101" name="realtyem/tf101-katkernel" revision="dev" remote="github"/>
+	<project path="libcore" name="realtyem/platform-libcore" revision="aosp-6.0_buildfix" remote="github"/>
+	<project path="packages/apps/Browser" name="realtyem/platform-packages-apps-browser"  revision="katkiss-6.0" remote="github"/>
+	<project path="packages/apps/DeskClock" name="realtyem/platform-packages-apps-DeskClock"  revision="katkiss-6.0" remote="github" />
+	<project path="packages/apps/Gallery2" name="realtyem/platform-packages-apps-Gallery2"  revision="katkiss-6.0" remote="github" />
+	<project path="packages/apps/Launcher3" name="realtyem/platform-packages-apps-launcher3"  revision="katkiss-6.0" remote="github" />
+	<project path="packages/apps/Settings" name="realtyem/platform-packages-apps-Settings"  revision="katkiss-6.0" remote="github" />
+	<project path="packages/inputmethods/LatinIME" name="realtyem/platform-packages-inputmethods-LatinIME"   revision="katkiss-6.0" remote="github" />
+	<project path="packages/providers/MediaProvider" name="realtyem/platform-packages-providers-MediaProvider"  revision="katkiss-6.0" remote="github" />
+	<project path="prebuilts/gcc/linux-x86/arm/linaro-4.7" name="realtyem/platform-prebuilts-gcc-linux-x86-arm-linaro-4.7" groups="linux,arm"   revision="katkiss-4.3" remote="github" />
+	<project path="system/bt" name="realtyem/platform_system_bt"  revision="katkiss-6.0" remote="github"/>
+	<project path="system/core" name="realtyem/android-system-core"  revision="o-katkiss-6.0-tmpfix" remote="github"/>
+	<project path="system/extras" name="realtyem/platform-system-extras"  revision="cm-10.2_katkiss-6.0" remote="github"/>
+	<project path="system/media" name="realtyem/platform-system-media"  revision="katkiss-6.0" remote="github"/>
+	<project path="system/vold" name="realtyem/platform-system-vold"  revision="katkiss-6.0" remote="github"/>
+	<project path="vendor/asus" name="realtyem/platform-vendor-asus"  revision="eos-4.2.2" remote="github"/>
+	<project path="vendor/kat" name="realtyem/platform-vendor-kat"  revision="katkiss-6.0" remote="github"/>
+	<project path="vendor/sm" name="realtyem/platform-vendor-sm"  revision="katkiss-5.1" remote="github"/>
+	<project path="vendor/widevine" name="realtyem/platform-vendor-widevine"  revision="katkiss-4.4" remote="github"/>
 
    </manifest>
